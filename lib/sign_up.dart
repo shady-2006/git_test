@@ -1,12 +1,11 @@
 import 'package:flutter/material.dart';
 
+// Shady from main branch
 class SignUp extends StatelessWidget {
   const SignUp({super.key});
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar( title: Text("SignUp") ),
-    );
+    return Scaffold(appBar: AppBar(title: Text("SignUp")));
   }
 }
